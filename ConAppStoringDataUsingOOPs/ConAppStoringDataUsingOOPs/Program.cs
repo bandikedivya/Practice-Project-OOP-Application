@@ -47,7 +47,7 @@ namespace ConAppStoringDataUsingOOPs
                         string subjectName = Console.ReadLine();
                         Console.WriteLine("Enter Subject Code:");
                         string subjectCode = Console.ReadLine();
-                        Console.WriteLine("Select Teacher by Index (Enter the index of the teacher from the displayed list):");
+                        Console.WriteLine("Select Teacher by Index (Enter the Index of the teacher from the displayed list):");
                         for (int i = 0; i < schoolManager.Teachers.Count; i++)
                         {
                             Console.WriteLine($"{i + 1}. {schoolManager.Teachers[i].Name}");
