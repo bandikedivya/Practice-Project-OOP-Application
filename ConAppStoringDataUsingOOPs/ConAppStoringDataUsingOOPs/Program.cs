@@ -73,7 +73,7 @@ namespace ConAppStoringDataUsingOOPs
                         break;
 
                     default:
-                        Console.WriteLine("Invalid option. Please try again.");
+                        Console.WriteLine("Invalid Option. Please try again.");
                         break;
                 }
 
